@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://vjs.zencdn.net/7.14.3/video-js.css" rel="stylesheet" />
+    <style>
+        /* Personnaliser l'apparence du lecteur */
+        .vjs-progress-control, .vjs-volume-control, .vjs-picture-in-picture, .vjs-fullscreen-control {
+            display: none; /* Masque les contrôles non désirés */
+        }
+    </style>
+</head>
+<body>
+    <video id="my-video" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360">
+        <source src="https://drive.google.com/uc?export=download&id=1wqMdxNhGIOXcMYGUgnDEIWWpH9vlCDTK" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <script src="https://vjs.zencdn.net/7.14.3/video.min.js"></script>
+</body>
+</html>
